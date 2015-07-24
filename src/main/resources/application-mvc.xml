@@ -16,9 +16,8 @@
     </mvc:view-resolvers>
 
     <!-- StaticResource -->
-    <!--<mvc:resources mapping="/" location="/html/"/>-->
-    <mvc:resources mapping="/**" location="/html/"/>
     <mvc:resources mapping="/static/**" location="/static/"/>
+    <mvc:resources mapping="/**" location="/html/"/>
 
     <!-- MessageConverters -->
     <mvc:annotation-driven>
